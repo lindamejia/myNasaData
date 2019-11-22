@@ -1,0 +1,24 @@
+# global-css:
+#   css:
+#     theme:
+#       css/style.css: {}
+
+# global-js:
+#   js:
+#     js/main.js: {}
+#   dependencies:
+#     - core/jquery
+
+global-styling-and-scripts:
+# version: VERSION
+  css:
+    theme:
+      css/bootstrap.css: {}
+      css/style.css: {}
+
+  js:
+    js/bootstrap.min.js: {}
+    js/customjs.js: {}
+  dependencies:
+    - core/jquery
+    - core/jquery.ui.effects.core

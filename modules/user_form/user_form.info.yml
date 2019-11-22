@@ -1,0 +1,6 @@
+name: User form
+type: module
+description: 'User forms.'
+package: Custom
+core: 8.x
+hidden: false

@@ -1,0 +1,34 @@
+# name: my_nasa_data
+# description: Drupal 8 Starter Theme
+# type: theme
+# core: 8.x
+# libraries:
+#   - my_nasa_data/global-css
+#   - my_nasa_data/global-js
+# stylesheets-remove:
+#   - core/themes/stable/css/views/views.module.css
+#   - core/themes/stable/css/system/components/align.module.css
+
+# regions:
+#   content: 'Main Content'
+#   header: 'Header'
+#   footer: 'Footer'
+#   sidebar: 'Sidebar'
+
+# # Information added by Drupal.org packaging script on 2019-11-13
+# version: '8.7.10'
+# project: 'drupal'
+# datestamp: 1573688104
+
+name: my_nasa_data
+type: theme
+base theme: classy
+core: 8.x
+libraries:
+  - my_nasa_data/global-styling-and-scripts
+regions:
+  headline: 'Headline'
+  header: 'Header'
+  content: 'Content'
+  sidebar: 'Sidebar'
+  footer: 'Footer'
